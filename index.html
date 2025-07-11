@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rohit Yadav</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate CSE student with experience in web development, databases, and IoT. I aim to build smart, secure, and efficient systems.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>C, Python, MySQL</li>
+      <li>DBMS, IoT, Git</li>
+      <li>Fusion 360, Linux Basics</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Student Record System</h3>
+      <p>A basic DBMS project using MySQL to manage student information.</p>
+    </div>
+    <div class="project">
+      <h3>Auction Management System</h3>
+      <p>A web-based platform for hosting and managing auctions efficiently.</p>
+    </div>
+    <div class="project">
+      <h3>IoT Smart Irrigation</h3>
+      <p>Uses sensors and automation to optimize water usage in agriculture.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return false;">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" onclick="submitMessage()">Send</button>
+    </form>
+    <p id="message-status"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rohit Yadav</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
